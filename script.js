@@ -57,7 +57,7 @@ async function typewriterEffect(element, text, speed = 20) {
 // LEFT CHATBOT (IMT Support)
 // ============================
 
-const N8N_WEBHOOK_URL_LEFT = 'https://roshn8n.app.n8n.cloud/webhook/6125090e-1bff-4b61-ba78-2e04e96ca1e5/chat';
+const N8N_WEBHOOK_URL_LEFT = 'https://edubot.app.n8n.cloud/webhook/6125090e-1bff-4b61-ba78-2e04e96ca1e5/chat';
 // Webhook URL for inactivity
 const N8N_INACTIVITY_WEBHOOK_URL = 'https://zoximasolutionss.app.n8n.cloud/webhook/2b722ab5-f463-4607-a6dc-addc0b3cbd9f';
 
@@ -327,4 +327,5 @@ document.addEventListener('keydown', (e) => {
 
 
 console.log('✅ IMT Chatbot Loaded Successfully!');
+
 
